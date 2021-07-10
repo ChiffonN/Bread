@@ -4,12 +4,11 @@ a {
   h1 {
       font-size:50px;
       text-align: center;
-      border-bottom:1px solid black;
       margin:0;
       padding: 20px;
   }
   #grid ol{
-      border-right:1px solid black;
+      border-right:1px solid ;
       width: 100px;
       margin: 0;
       padding: 20px;
