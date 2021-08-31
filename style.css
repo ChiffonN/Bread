@@ -6,9 +6,10 @@ a {
       text-align: center;
       margin:0;
       padding: 20px;
+      border-bottom: 10px solid darkgreen;
   }
   #grid ol{
-      border-right:1px solid ;
+      border-right:1px solid darkgreen;
       width: 100px;
       margin: 0;
       padding: 20px;
@@ -26,11 +27,13 @@ a {
   #article{
       padding-left: 25px;
   }
-  @media(max-width:800px){
+  @media(max-width:700px){
     #grid{
       display: block;}
     #grid ol{
-    border-right:none;}
+    border-right:none;
+ 
+    }
     h1 {
-      border-bottom:none;}
+      border-bottom: 10px solid darkgreen;}
   }
